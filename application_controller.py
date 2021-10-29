@@ -10,7 +10,7 @@ def index():
 def hello():
     name = "Hoge"
     #return name
-    return render_template('hello.html', title='flask test', name=name) #変更
+    return render_template('hello.html', title='flask test', name=name)
 
 @app.route("/test", methods=["GET", "POST"])
 def test():
